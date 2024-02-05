@@ -34,4 +34,7 @@
         flex-direction: column;
         align-items: flex-end;
     }
+    &__wrapper_s-visible {
+        display: none;
+    }
 }
