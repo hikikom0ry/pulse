@@ -79,4 +79,54 @@
             font-size: 12px;
         }
     }
+
+    @media(max-width: 575px) {
+        .container {
+            width: 320px; 
+        }
+        .promo {
+            &__header {
+                font-size: 25px;
+                text-align: center;
+            }
+            &__subheader {
+                font-size: 19px;
+                text-align: center;
+            }
+            &__icons {
+                width: 110px;
+                flex-direction: column;
+                margin: 0;
+            }
+            &__icon {
+                margin-top: 15px;
+                img {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+        .button {
+            &_main{
+                width: 245px;
+            }
+        }
+        .header {
+            &__wrapper_s-visible {
+                flex-direction: column;
+            }
+        }
+        .advantage {
+            &__icons {
+                flex-direction: column;
+                margin: 0 15px;
+            }
+            &__icon {
+                width: 100%;
+                margin: 10px auto;
+            }
+        }
+        .section-header {
+            font-size: 22px;
+        }
+    }
 }
