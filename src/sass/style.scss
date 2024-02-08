@@ -4,7 +4,9 @@
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/advantage';
-@import 'blocks/section-header';
+@import 'blocks/title';
+@import 'blocks/consultation';
+@import 'blocks/forms';
 
 * {
     font-family: 'Museo Sans', sans-serif;
@@ -15,4 +17,6 @@
     margin: 0 auto;
 }
 @import 'media';
+
+
 
