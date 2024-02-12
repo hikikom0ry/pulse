@@ -1,4 +1,13 @@
 @import 'base/mixins';
+* {
+    font-family: 'Museo Sans', sans-serif;
+}
+.container {
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+}
+
 @import 'base/variables';
 @import 'blocks/promo';
 @import 'blocks/header';
@@ -7,15 +16,8 @@
 @import 'blocks/title';
 @import 'blocks/consultation';
 @import 'blocks/forms';
+@import 'blocks/carousel';
 
-* {
-    font-family: 'Museo Sans', sans-serif;
-}
-
-.container {
-    width: 950px;
-    margin: 0 auto;
-}
 @import 'media';
 
 
