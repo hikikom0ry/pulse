@@ -29,9 +29,12 @@
     }
     &__content {
         margin-top: 57px;
-        display: flex;
+        display: none;
         justify-content: space-between;
         flex-wrap: wrap;
+        &-active {
+            display: flex;
+        }
     }
     &__item {
         width: 303px;
