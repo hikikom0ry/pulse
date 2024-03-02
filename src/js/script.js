@@ -37,17 +37,6 @@ $(document).ready(function() {
 
     //Tabs content switching
     
-    function toggleTabContent (item) {
-        $(item).each(function(i) {
-            $(this).on('click', function(e) {
-                e.preventDefault();
-                $('.catalog__item-content').eq(i).toggleClass('catalog__item-content-active');
-                $('.catalog__item-list').eq(i).toggleClass('catalog__item-list-active');
-            });
-        });
-    }
 
-    toggleTabContent('.catalog__item-link');
-    toggleTabContent('.catalog__item-back');
 
 });
