@@ -35,7 +35,7 @@ $(document).ready(function() {
           .closest('.container').find('div.catalog__content').removeClass('catalog__content_active').eq($(this).index()).addClass('catalog__content_active');
     });
 
-    function card_rotate(item) {
+    function toggleSlide(item) {
         $(item).each(function(i) {
             $(this).on('click', function(e) {
                 e.preventDefault();
@@ -45,7 +45,7 @@ $(document).ready(function() {
         });
     }
 
-    card_rotate('.catalog-item__link');
-    card_rotate('.catalog-item__back');
+    toggleSlide('.catalog-item__link');
+    toggleSlide('.catalog-item__back');
 
 });
