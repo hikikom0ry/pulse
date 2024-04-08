@@ -5,6 +5,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.56);
     top: 0;
+    z-index: 2;
 }
 .modal {
     width: 380px;
@@ -15,6 +16,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #F2F2F2;
+    
     &__close {
         position: absolute;
         top: 0;

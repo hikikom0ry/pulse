@@ -284,6 +284,30 @@
             }
         }
     }
-
+    .modal {
+        width: 250px;
+        padding: 19px 20px 20px 20px;
+        &__close {
+            font-size: 30px;
+            right: -25px;
+        }
+        form {
+            width: 100%;
+            input {
+                height: 40px;
+                font-size: 12px;
+            }
+            .button_submit {
+                font-size: 12px;
+                height: 40px;
+            }
+        }
+        &__subtitle {
+            font-size: 13px;    
+        }
+        &__descr {
+            font-size: 12px;
+        }
+    }
 
 }
